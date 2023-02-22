@@ -1,14 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
-
 class CategoryController extends Controller
 {
     //
-    public function games(){
-        
+    public function games(){    
         echo'
             <h1>Games</h1>
                 <ul>
@@ -20,8 +17,7 @@ class CategoryController extends Controller
             ';
     }
 
-    public function story(){
-        
+    public function songs(){  
         echo'
             <h1>Songs</h1>
                 <ul>
@@ -30,8 +26,7 @@ class CategoryController extends Controller
             ';
     }
 
-    public function books(){
-        
+    public function books(){ 
         echo'
             <h1>Books</h1>
                 <ul>
